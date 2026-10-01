@@ -1,0 +1,30 @@
+name: universal_turnstile
+description: >-
+  Cloudflare Turnstile widget for every Flutter platform: official
+  webview_flutter on Android, iOS and macOS, a lightweight desktop engine on
+  Windows and Linux, and native JS on the web.
+version: 0.0.1
+repository: https://github.com/toniess/universal_turnstile
+issue_tracker: https://github.com/toniess/universal_turnstile/issues
+topics:
+  - turnstile
+  - captcha
+  - cloudflare
+  - webview
+
+environment:
+  sdk: ^3.10.0
+  flutter: ">=3.38.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Android / iOS / macOS. Windows and Linux engines are chosen in the
+  # desktop-engine spike (doc/SPEC.md, M2) and added then.
+  webview_flutter: ^4.14.0
+  web: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0

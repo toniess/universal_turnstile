@@ -1,0 +1,19 @@
+name: universal_turnstile_example
+description: Demo of universal_turnstile on every platform.
+publish_to: none
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  universal_turnstile:
+    path: ../
+
+dev_dependencies:
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
